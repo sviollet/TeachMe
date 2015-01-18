@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B2EC4071A6ADC53008AA626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4061A6ADC53008AA626 /* main.m */; };
 		0B2EC40A1A6ADC53008AA626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4091A6ADC53008AA626 /* AppDelegate.m */; };
-		0B2EC40D1A6ADC53008AA626 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */; };
-		0B2EC4101A6ADC53008AA626 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */; };
+		0B2EC40D1A6ADC53008AA626 /* ListExerciceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40C1A6ADC53008AA626 /* ListExerciceViewController.m */; };
+		0B2EC4101A6ADC53008AA626 /* DetailExerciceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40F1A6ADC53008AA626 /* DetailExerciceViewController.m */; };
 		0B2EC4131A6ADC53008AA626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4111A6ADC53008AA626 /* Main.storyboard */; };
 		0B2EC4151A6ADC53008AA626 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4141A6ADC53008AA626 /* Images.xcassets */; };
 		0B2EC4181A6ADC53008AA626 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */; };
@@ -40,10 +40,10 @@
 		0B2EC4061A6ADC53008AA626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B2EC4081A6ADC53008AA626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B2EC4091A6ADC53008AA626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0B2EC40B1A6ADC53008AA626 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0B2EC40E1A6ADC53008AA626 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0B2EC40B1A6ADC53008AA626 /* ListExerciceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListExerciceViewController.h; sourceTree = "<group>"; };
+		0B2EC40C1A6ADC53008AA626 /* ListExerciceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListExerciceViewController.m; sourceTree = "<group>"; };
+		0B2EC40E1A6ADC53008AA626 /* DetailExerciceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailExerciceViewController.h; sourceTree = "<group>"; };
+		0B2EC40F1A6ADC53008AA626 /* DetailExerciceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailExerciceViewController.m; sourceTree = "<group>"; };
 		0B2EC4121A6ADC53008AA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B2EC4141A6ADC53008AA626 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B2EC4171A6ADC53008AA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -115,10 +115,10 @@
 				0B2EC42D1A6ADCC3008AA626 /* Model */,
 				0B2EC4081A6ADC53008AA626 /* AppDelegate.h */,
 				0B2EC4091A6ADC53008AA626 /* AppDelegate.m */,
-				0B2EC40B1A6ADC53008AA626 /* MasterViewController.h */,
-				0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */,
-				0B2EC40E1A6ADC53008AA626 /* DetailViewController.h */,
-				0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */,
+				0B2EC40B1A6ADC53008AA626 /* ListExerciceViewController.h */,
+				0B2EC40C1A6ADC53008AA626 /* ListExerciceViewController.m */,
+				0B2EC40E1A6ADC53008AA626 /* DetailExerciceViewController.h */,
+				0B2EC40F1A6ADC53008AA626 /* DetailExerciceViewController.m */,
 				0B2EC4111A6ADC53008AA626 /* Main.storyboard */,
 				0B2EC4141A6ADC53008AA626 /* Images.xcassets */,
 				0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */,
@@ -346,11 +346,11 @@
 				0B2EC4371A6AE2B5008AA626 /* SQLManager.m in Sources */,
 				0B2EC40A1A6ADC53008AA626 /* AppDelegate.m in Sources */,
 				0B2EC43A1A6AEA8C008AA626 /* ExerciceCtrl.m in Sources */,
-				0B2EC40D1A6ADC53008AA626 /* MasterViewController.m in Sources */,
+				0B2EC40D1A6ADC53008AA626 /* ListExerciceViewController.m in Sources */,
 				0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */,
 				0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */,
 				0B2EC4071A6ADC53008AA626 /* main.m in Sources */,
-				0B2EC4101A6ADC53008AA626 /* DetailViewController.m in Sources */,
+				0B2EC4101A6ADC53008AA626 /* DetailExerciceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

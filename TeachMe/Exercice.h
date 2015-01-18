@@ -12,7 +12,7 @@
 
 @property (nonatomic) int id;
 @property (nonatomic,retain) NSString*libelle;
-@property (nonatomic,retain) NSString*description;
+@property (nonatomic,retain) NSString*texte;
 @property (nonatomic, retain) NSString*url;
 
 @end

@@ -16,19 +16,29 @@
     return [super init];
 }
 
--(NSArray*) GetExercices{
+-(NSMutableArray*) GetExercices{
+    
+    NSMutableArray*result = [[NSMutableArray alloc] init];
     
     if ([self connectToDaBase]) {
         
         FMResultSet *s = [self.sqlManager.db executeQuery:@"SELECT * FROM Exercice"];
         while ([s next]) {
-            NSLog([s objectForColumnName:@"description"]);
+            //NSLog([s objectForColumnName:@"description"]);
+            
+            Exercice* ex = [[Exercice alloc] init];
+            ex.id = [s objectForColumnName:@"id"];
+            ex.libelle = [s objectForColumnName:@"libelle"];
+            ex.texte = [s objectForColumnName:@"description"];
+            ex.url = [s objectForColumnName:@"urlvideo"];
+            
+            [result addObject:ex];
             
         }
         [self disconnectToDataBase];
     }
     
-    return [[NSArray alloc] init];
+    return result;
 }
 
 /**

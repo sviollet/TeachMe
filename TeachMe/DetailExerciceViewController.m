@@ -6,19 +6,19 @@
 //  Copyright (c) 2015 AppiaPace. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "DetailExerciceViewController.h"
 
-@interface DetailViewController ()
+@interface DetailExerciceViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation DetailExerciceViewController
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+- (void)setDetailItem:(Exercice *)exercice {
+    if (_exercice != exercice) {
+        _exercice = exercice;
             
         // Update the view.
         [self configureView];
@@ -27,8 +27,8 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    if (self.exercice) {
+        self.detailDescriptionLabel.text = _exercice.texte;
     }
 }
 

@@ -15,7 +15,7 @@
 
 
 //-(id)init;
--(NSArray*) GetExercices;
+-(NSMutableArray*) GetExercices;
 //-(void) Test:(SQLResult*)result;
 //-(NSString*) TestExercices:(SEL) callback ;
 -(Exercice*) GetExercice:(int) exId;

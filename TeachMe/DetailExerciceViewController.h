@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Exercice.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailExerciceViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Exercice* exercice;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end
