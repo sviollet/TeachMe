@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2EC4071A6ADC53008AA626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4061A6ADC53008AA626 /* main.m */; };
+		0B2EC40A1A6ADC53008AA626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4091A6ADC53008AA626 /* AppDelegate.m */; };
+		0B2EC40D1A6ADC53008AA626 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */; };
+		0B2EC4101A6ADC53008AA626 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */; };
+		0B2EC4131A6ADC53008AA626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4111A6ADC53008AA626 /* Main.storyboard */; };
+		0B2EC4151A6ADC53008AA626 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4141A6ADC53008AA626 /* Images.xcassets */; };
+		0B2EC4181A6ADC53008AA626 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */; };
+		0B2EC4241A6ADC53008AA626 /* TeachMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4231A6ADC53008AA626 /* TeachMeTests.m */; };
+		0B2EC4301A6ADD6D008AA626 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2EC42F1A6ADD6D008AA626 /* libsqlite3.dylib */; };
+		0B2EC4331A6AE262008AA626 /* TeachMe.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EC4321A6AE262008AA626 /* TeachMe.sqlite */; };
+		0B2EC4371A6AE2B5008AA626 /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4361A6AE2B5008AA626 /* SQLManager.m */; };
+		0B2EC43A1A6AEA8C008AA626 /* ExerciceCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4391A6AEA8C008AA626 /* ExerciceCtrl.m */; };
+		0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43C1A6AEAD9008AA626 /* Exercice.m */; };
+		0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */; };
+		7BA616F881719F60D88C1B04 /* libPods-TeachMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2EC41E1A6ADC53008AA626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2EC3F91A6ADC53008AA626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2EC4001A6ADC53008AA626;
+			remoteInfo = TeachMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2EC4011A6ADC53008AA626 /* TeachMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeachMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2EC4051A6ADC53008AA626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2EC4061A6ADC53008AA626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B2EC4081A6ADC53008AA626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B2EC4091A6ADC53008AA626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B2EC40B1A6ADC53008AA626 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0B2EC40E1A6ADC53008AA626 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0B2EC4121A6ADC53008AA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2EC4141A6ADC53008AA626 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B2EC4171A6ADC53008AA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B2EC41D1A6ADC53008AA626 /* TeachMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeachMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2EC4221A6ADC53008AA626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2EC4231A6ADC53008AA626 /* TeachMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeachMeTests.m; sourceTree = "<group>"; };
+		0B2EC42F1A6ADD6D008AA626 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0B2EC4321A6AE262008AA626 /* TeachMe.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TeachMe.sqlite; sourceTree = "<group>"; };
+		0B2EC4351A6AE2B5008AA626 /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		0B2EC4361A6AE2B5008AA626 /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
+		0B2EC4381A6AEA8C008AA626 /* ExerciceCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciceCtrl.h; sourceTree = "<group>"; };
+		0B2EC4391A6AEA8C008AA626 /* ExerciceCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciceCtrl.m; sourceTree = "<group>"; };
+		0B2EC43B1A6AEAD9008AA626 /* Exercice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercice.h; sourceTree = "<group>"; };
+		0B2EC43C1A6AEAD9008AA626 /* Exercice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercice.m; sourceTree = "<group>"; };
+		0B2EC43E1A6AEB30008AA626 /* BaseCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCtrl.h; sourceTree = "<group>"; };
+		0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCtrl.m; sourceTree = "<group>"; };
+		8B86389AFCD3592DC1236827 /* Pods-TeachMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.debug.xcconfig"; sourceTree = "<group>"; };
+		B28E640F25034BB7FFBBFD1D /* Pods-TeachMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.release.xcconfig"; sourceTree = "<group>"; };
+		E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeachMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2EC3FE1A6ADC53008AA626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EC4301A6ADD6D008AA626 /* libsqlite3.dylib in Frameworks */,
+				7BA616F881719F60D88C1B04 /* libPods-TeachMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EC41A1A6ADC53008AA626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2EC3F81A6ADC53008AA626 = {
+			isa = PBXGroup;
+			children = (
+				0B2EC42F1A6ADD6D008AA626 /* libsqlite3.dylib */,
+				0B2EC4031A6ADC53008AA626 /* TeachMe */,
+				0B2EC4201A6ADC53008AA626 /* TeachMeTests */,
+				0B2EC4021A6ADC53008AA626 /* Products */,
+				3EAEF433019A0FAC7972A638 /* Pods */,
+				851D67987A7B123631F37EEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2EC4021A6ADC53008AA626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4011A6ADC53008AA626 /* TeachMe.app */,
+				0B2EC41D1A6ADC53008AA626 /* TeachMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2EC4031A6ADC53008AA626 /* TeachMe */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4341A6AE289008AA626 /* Tools */,
+				0B2EC4311A6AE23B008AA626 /* Ressources */,
+				0B2EC42E1A6ADCCB008AA626 /* Controller */,
+				0B2EC42D1A6ADCC3008AA626 /* Model */,
+				0B2EC4081A6ADC53008AA626 /* AppDelegate.h */,
+				0B2EC4091A6ADC53008AA626 /* AppDelegate.m */,
+				0B2EC40B1A6ADC53008AA626 /* MasterViewController.h */,
+				0B2EC40C1A6ADC53008AA626 /* MasterViewController.m */,
+				0B2EC40E1A6ADC53008AA626 /* DetailViewController.h */,
+				0B2EC40F1A6ADC53008AA626 /* DetailViewController.m */,
+				0B2EC4111A6ADC53008AA626 /* Main.storyboard */,
+				0B2EC4141A6ADC53008AA626 /* Images.xcassets */,
+				0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */,
+				0B2EC4041A6ADC53008AA626 /* Supporting Files */,
+			);
+			path = TeachMe;
+			sourceTree = "<group>";
+		};
+		0B2EC4041A6ADC53008AA626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4051A6ADC53008AA626 /* Info.plist */,
+				0B2EC4061A6ADC53008AA626 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2EC4201A6ADC53008AA626 /* TeachMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4231A6ADC53008AA626 /* TeachMeTests.m */,
+				0B2EC4211A6ADC53008AA626 /* Supporting Files */,
+			);
+			path = TeachMeTests;
+			sourceTree = "<group>";
+		};
+		0B2EC4211A6ADC53008AA626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4221A6ADC53008AA626 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2EC42D1A6ADCC3008AA626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC43B1A6AEAD9008AA626 /* Exercice.h */,
+				0B2EC43C1A6AEAD9008AA626 /* Exercice.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0B2EC42E1A6ADCCB008AA626 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4381A6AEA8C008AA626 /* ExerciceCtrl.h */,
+				0B2EC4391A6AEA8C008AA626 /* ExerciceCtrl.m */,
+				0B2EC43E1A6AEB30008AA626 /* BaseCtrl.h */,
+				0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0B2EC4311A6AE23B008AA626 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4321A6AE262008AA626 /* TeachMe.sqlite */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		0B2EC4341A6AE289008AA626 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0B2EC4351A6AE2B5008AA626 /* SQLManager.h */,
+				0B2EC4361A6AE2B5008AA626 /* SQLManager.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		3EAEF433019A0FAC7972A638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B86389AFCD3592DC1236827 /* Pods-TeachMe.debug.xcconfig */,
+				B28E640F25034BB7FFBBFD1D /* Pods-TeachMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		851D67987A7B123631F37EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2EC4001A6ADC53008AA626 /* TeachMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2EC4271A6ADC53008AA626 /* Build configuration list for PBXNativeTarget "TeachMe" */;
+			buildPhases = (
+				B1477AF501CEECC974A9D2A6 /* Check Pods Manifest.lock */,
+				0B2EC3FD1A6ADC53008AA626 /* Sources */,
+				0B2EC3FE1A6ADC53008AA626 /* Frameworks */,
+				0B2EC3FF1A6ADC53008AA626 /* Resources */,
+				90327157FC544E90F7E88AC3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeachMe;
+			productName = TeachMe;
+			productReference = 0B2EC4011A6ADC53008AA626 /* TeachMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2EC41C1A6ADC53008AA626 /* TeachMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2EC42A1A6ADC53008AA626 /* Build configuration list for PBXNativeTarget "TeachMeTests" */;
+			buildPhases = (
+				0B2EC4191A6ADC53008AA626 /* Sources */,
+				0B2EC41A1A6ADC53008AA626 /* Frameworks */,
+				0B2EC41B1A6ADC53008AA626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2EC41F1A6ADC53008AA626 /* PBXTargetDependency */,
+			);
+			name = TeachMeTests;
+			productName = TeachMeTests;
+			productReference = 0B2EC41D1A6ADC53008AA626 /* TeachMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2EC3F91A6ADC53008AA626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AppiaPace;
+				TargetAttributes = {
+					0B2EC4001A6ADC53008AA626 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					0B2EC41C1A6ADC53008AA626 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0B2EC4001A6ADC53008AA626;
+					};
+				};
+			};
+			buildConfigurationList = 0B2EC3FC1A6ADC53008AA626 /* Build configuration list for PBXProject "TeachMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2EC3F81A6ADC53008AA626;
+			productRefGroup = 0B2EC4021A6ADC53008AA626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2EC4001A6ADC53008AA626 /* TeachMe */,
+				0B2EC41C1A6ADC53008AA626 /* TeachMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2EC3FF1A6ADC53008AA626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EC4131A6ADC53008AA626 /* Main.storyboard in Resources */,
+				0B2EC4331A6AE262008AA626 /* TeachMe.sqlite in Resources */,
+				0B2EC4181A6ADC53008AA626 /* LaunchScreen.xib in Resources */,
+				0B2EC4151A6ADC53008AA626 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EC41B1A6ADC53008AA626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90327157FC544E90F7E88AC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1477AF501CEECC974A9D2A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2EC3FD1A6ADC53008AA626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EC4371A6AE2B5008AA626 /* SQLManager.m in Sources */,
+				0B2EC40A1A6ADC53008AA626 /* AppDelegate.m in Sources */,
+				0B2EC43A1A6AEA8C008AA626 /* ExerciceCtrl.m in Sources */,
+				0B2EC40D1A6ADC53008AA626 /* MasterViewController.m in Sources */,
+				0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */,
+				0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */,
+				0B2EC4071A6ADC53008AA626 /* main.m in Sources */,
+				0B2EC4101A6ADC53008AA626 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2EC4191A6ADC53008AA626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2EC4241A6ADC53008AA626 /* TeachMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2EC41F1A6ADC53008AA626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2EC4001A6ADC53008AA626 /* TeachMe */;
+			targetProxy = 0B2EC41E1A6ADC53008AA626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2EC4111A6ADC53008AA626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2EC4121A6ADC53008AA626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2EC4171A6ADC53008AA626 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2EC4251A6ADC53008AA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B2EC4261A6ADC53008AA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2EC4281A6ADC53008AA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B86389AFCD3592DC1236827 /* Pods-TeachMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeachMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B2EC4291A6ADC53008AA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28E640F25034BB7FFBBFD1D /* Pods-TeachMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeachMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B2EC42B1A6ADC53008AA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeachMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeachMe.app/TeachMe";
+			};
+			name = Debug;
+		};
+		0B2EC42C1A6ADC53008AA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TeachMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeachMe.app/TeachMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2EC3FC1A6ADC53008AA626 /* Build configuration list for PBXProject "TeachMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EC4251A6ADC53008AA626 /* Debug */,
+				0B2EC4261A6ADC53008AA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2EC4271A6ADC53008AA626 /* Build configuration list for PBXNativeTarget "TeachMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EC4281A6ADC53008AA626 /* Debug */,
+				0B2EC4291A6ADC53008AA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2EC42A1A6ADC53008AA626 /* Build configuration list for PBXNativeTarget "TeachMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2EC42B1A6ADC53008AA626 /* Debug */,
+				0B2EC42C1A6ADC53008AA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2EC3F91A6ADC53008AA626 /* Project object */;
+}
