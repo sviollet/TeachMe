@@ -16,11 +16,28 @@
 
 // factory de SQLManager
 + (id)sharedManager {
+    
     static SQLManager *sharedManager = nil;
+    
     @synchronized(self) {
         if (sharedManager == nil) {
             sharedManager = [[self alloc] initDatabase:@"TeachMe.sqlite"];
+            
+            NSLog(sharedManager.dataBasePath);
+            
             sharedManager.db = [FMDatabase databaseWithPath:sharedManager.dataBasePath];
+            /**
+            if ([sharedManager.db open]) {
+                
+                FMResultSet *s = [sharedManager.db executeQuery:@"SELECT Count(*) FROM Exercice"];
+                
+                if ([s next]) {
+                    int totalCount = [s intForColumnIndex:0];
+                    
+                    NSLog(@"%i exercices chargés", totalCount);
+                }
+            }**/
+            
         }
     }
     return sharedManager;
@@ -37,11 +54,13 @@
         NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *documentsDir = [documentPaths objectAtIndex:0];
         _databasePath = [documentsDir stringByAppendingPathComponent:_databaseName];
+        
+        [self checkAndCreateDatabaseWithOverwrite:YES];
     }
     return self;
 }
 
-/**
+
 //Validation et creation de la base de donnees
 -(void)checkAndCreateDatabaseWithOverwrite:(BOOL)overwriteDB {
     // BOOL qui servira de verification de l'existance de la BD
@@ -63,7 +82,8 @@
     
     // Copier la BD de l'app Bundle vers le repertoire de documents
     [fileManager copyItemAtPath:databasePathFromApp toPath:_databasePath error:nil];
-}**/
+}
+
 /**
 //Creation d'une liste des noms de colonnes pour obtenir son Index
 - (NSDictionary *)indexByColumnName:(sqlite3_stmt *)init_statement {

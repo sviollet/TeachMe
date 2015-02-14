@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Exercice.h"
+#import "TMUIViewController.h"
 
-@interface DetailExerciceViewController : UIViewController
+@interface DetailExerciceViewController : TMUIViewController
 
 @property (strong, nonatomic) Exercice* exercice;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;

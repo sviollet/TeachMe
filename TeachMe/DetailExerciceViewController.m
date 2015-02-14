@@ -38,6 +38,25 @@
     [self configureView];
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    self.navigationController.toolbarHidden = NO;
+
+    
+    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+                                                                                target:self
+                                                                                action:@selector(validateExercice)];
+    
+    self.navigationItem.rightBarButtonItem = doneButton;
+    
+}
+
+-(void)validateExercice {
+    NSLog(@"validation");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

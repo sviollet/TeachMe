@@ -17,7 +17,7 @@
 @property(nonatomic,retain)NSString*dataBasePath; // Chemin complet de la base de donnees
 
 + (id)sharedManager;
-//-(void) checkAndCreateDatabaseWithOverwrite:(BOOL)overwriteDB;
++(void) checkAndCreateDatabaseWithOverwrite:(BOOL)overwriteDB;
 //- (NSDictionary *)indexByColumnName:(sqlite3_stmt *)init_statement;
 
 @end

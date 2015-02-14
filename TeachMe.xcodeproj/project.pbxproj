@@ -21,6 +21,7 @@
 		0B2EC43A1A6AEA8C008AA626 /* ExerciceCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC4391A6AEA8C008AA626 /* ExerciceCtrl.m */; };
 		0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43C1A6AEAD9008AA626 /* Exercice.m */; };
 		0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */; };
+		0B8BBE1E1A8FAC0B008456BA /* TMUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BBE1D1A8FAC0B008456BA /* TMUIViewController.m */; };
 		7BA616F881719F60D88C1B04 /* libPods-TeachMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		0B2EC43C1A6AEAD9008AA626 /* Exercice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercice.m; sourceTree = "<group>"; };
 		0B2EC43E1A6AEB30008AA626 /* BaseCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCtrl.h; sourceTree = "<group>"; };
 		0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCtrl.m; sourceTree = "<group>"; };
+		0B8BBE1C1A8FAC0B008456BA /* TMUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUIViewController.h; sourceTree = "<group>"; };
+		0B8BBE1D1A8FAC0B008456BA /* TMUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUIViewController.m; sourceTree = "<group>"; };
 		8B86389AFCD3592DC1236827 /* Pods-TeachMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B28E640F25034BB7FFBBFD1D /* Pods-TeachMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeachMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +126,8 @@
 				0B2EC4141A6ADC53008AA626 /* Images.xcassets */,
 				0B2EC4161A6ADC53008AA626 /* LaunchScreen.xib */,
 				0B2EC4041A6ADC53008AA626 /* Supporting Files */,
+				0B8BBE1C1A8FAC0B008456BA /* TMUIViewController.h */,
+				0B8BBE1D1A8FAC0B008456BA /* TMUIViewController.m */,
 			);
 			path = TeachMe;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				0B2EC40A1A6ADC53008AA626 /* AppDelegate.m in Sources */,
 				0B2EC43A1A6AEA8C008AA626 /* ExerciceCtrl.m in Sources */,
 				0B2EC40D1A6ADC53008AA626 /* ListExerciceViewController.m in Sources */,
+				0B8BBE1E1A8FAC0B008456BA /* TMUIViewController.m in Sources */,
 				0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */,
 				0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */,
 				0B2EC4071A6ADC53008AA626 /* main.m in Sources */,

@@ -25,18 +25,32 @@
     
     // Creation de l'instance (le constructeur est donc initie)
     //Execution de la methode de validation de l'existance de la BD
-    //[[SQLManager sharedManager] checkAndCreateDatabaseWithOverwrite:NO];
+
     
     //NSString*test = [[[ExerciceCtrl alloc] init] TestExercices:@selector(Test:)];
     
     //NSLog(@"result = %@", test);
+    /**
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *writableDBPath = [documentsDirectory stringByAppendingPathComponent:@"TeachMe.sqlite"];
+
+    [[SQLManager sharedManager] checkAndCreateDatabaseWithOverwrite:NO];
+ 
+    FMDatabase* db = [FMDatabase databaseWithPath:writableDBPath];
     
-    //NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    //NSString *documentsDirectory = [paths objectAtIndex:0];
-    //NSString *writableDBPath = [documentsDirectory stringByAppendingPathComponent:@"TeachMe.sqlite"];
-    //FMDatabase* db = [FMDatabase databaseWithPath:writableDBPath];
+    NSLog([db open]?@"ok" : @"Error");
     
-    //NSLog([db open]?@"ok" : @"Error");
+    if ([db open]) {
+        
+        FMResultSet *s = [db executeQuery:@"SELECT Count(*) FROM Exercice"];
+        
+        if ([s next]) {
+            int totalCount = [s intForColumnIndex:0];
+            
+            NSLog(@"%i exercices chargés", totalCount);
+        }
+    }**/
     
     ExerciceCtrl *test = [[ExerciceCtrl alloc] init];
     [test GetExercices];
@@ -45,6 +59,7 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
+    
     return YES;
 }
 

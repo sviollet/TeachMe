@@ -94,6 +94,7 @@
 
     //NSDate *object = self.objects[indexPath.row];
     //cell.textLabel.text = [object description];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     
     Exercice* ex = [_exercices objectAtIndex:indexPath.row];
     cell.textLabel.text = ex.libelle;
