@@ -22,6 +22,11 @@
 		0B2EC43D1A6AEAD9008AA626 /* Exercice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43C1A6AEAD9008AA626 /* Exercice.m */; };
 		0B2EC4401A6AEB30008AA626 /* BaseCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */; };
 		0B8BBE1E1A8FAC0B008456BA /* TMUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8BBE1D1A8FAC0B008456BA /* TMUIViewController.m */; };
+		0BB610E31A90A309008E6EA0 /* detailBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB610E11A90A309008E6EA0 /* detailBackground@2x.png */; };
+		0BB610E41A90A309008E6EA0 /* detailBackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB610E21A90A309008E6EA0 /* detailBackground@3x.png */; };
+		0BB610E61A90D041008E6EA0 /* bottomPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB610E51A90D041008E6EA0 /* bottomPage.png */; };
+		0BB610E91A90D708008E6EA0 /* icon_validate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB610E71A90D708008E6EA0 /* icon_validate.png */; };
+		0BB610EA1A90D708008E6EA0 /* icon_validate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB610E81A90D708008E6EA0 /* icon_validate@2x.png */; };
 		7BA616F881719F60D88C1B04 /* libPods-TeachMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +68,11 @@
 		0B2EC43F1A6AEB30008AA626 /* BaseCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCtrl.m; sourceTree = "<group>"; };
 		0B8BBE1C1A8FAC0B008456BA /* TMUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUIViewController.h; sourceTree = "<group>"; };
 		0B8BBE1D1A8FAC0B008456BA /* TMUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUIViewController.m; sourceTree = "<group>"; };
+		0BB610E11A90A309008E6EA0 /* detailBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "detailBackground@2x.png"; path = "Images/detailBackground@2x.png"; sourceTree = "<group>"; };
+		0BB610E21A90A309008E6EA0 /* detailBackground@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "detailBackground@3x.png"; path = "Images/detailBackground@3x.png"; sourceTree = "<group>"; };
+		0BB610E51A90D041008E6EA0 /* bottomPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottomPage.png; path = Images/bottomPage.png; sourceTree = "<group>"; };
+		0BB610E71A90D708008E6EA0 /* icon_validate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_validate.png; path = Images/icon_validate.png; sourceTree = "<group>"; };
+		0BB610E81A90D708008E6EA0 /* icon_validate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_validate@2x.png"; path = "Images/icon_validate@2x.png"; sourceTree = "<group>"; };
 		8B86389AFCD3592DC1236827 /* Pods-TeachMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B28E640F25034BB7FFBBFD1D /* Pods-TeachMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeachMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeachMe/Pods-TeachMe.release.xcconfig"; sourceTree = "<group>"; };
 		E6E7B0B366B0C510A2CA0816 /* libPods-TeachMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeachMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +122,7 @@
 		0B2EC4031A6ADC53008AA626 /* TeachMe */ = {
 			isa = PBXGroup;
 			children = (
+				0BB610D81A909BDD008E6EA0 /* Images */,
 				0B2EC4341A6AE289008AA626 /* Tools */,
 				0B2EC4311A6AE23B008AA626 /* Ressources */,
 				0B2EC42E1A6ADCCB008AA626 /* Controller */,
@@ -193,6 +204,18 @@
 				0B2EC4361A6AE2B5008AA626 /* SQLManager.m */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		0BB610D81A909BDD008E6EA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0BB610E71A90D708008E6EA0 /* icon_validate.png */,
+				0BB610E81A90D708008E6EA0 /* icon_validate@2x.png */,
+				0BB610E51A90D041008E6EA0 /* bottomPage.png */,
+				0BB610E11A90A309008E6EA0 /* detailBackground@2x.png */,
+				0BB610E21A90A309008E6EA0 /* detailBackground@3x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		3EAEF433019A0FAC7972A638 /* Pods */ = {
@@ -296,8 +319,13 @@
 			files = (
 				0B2EC4131A6ADC53008AA626 /* Main.storyboard in Resources */,
 				0B2EC4331A6AE262008AA626 /* TeachMe.sqlite in Resources */,
+				0BB610E31A90A309008E6EA0 /* detailBackground@2x.png in Resources */,
 				0B2EC4181A6ADC53008AA626 /* LaunchScreen.xib in Resources */,
+				0BB610E41A90A309008E6EA0 /* detailBackground@3x.png in Resources */,
 				0B2EC4151A6ADC53008AA626 /* Images.xcassets in Resources */,
+				0BB610E91A90D708008E6EA0 /* icon_validate.png in Resources */,
+				0BB610EA1A90D708008E6EA0 /* icon_validate@2x.png in Resources */,
+				0BB610E61A90D041008E6EA0 /* bottomPage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

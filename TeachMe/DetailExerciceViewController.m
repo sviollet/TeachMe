@@ -10,6 +10,7 @@
 
 @interface DetailExerciceViewController ()
 
+
 @end
 
 @implementation DetailExerciceViewController
@@ -34,8 +35,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    
+    //UIImage *backgroundImage = [UIImage imageNamed:@"bottomPage.png"];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
+    
     // Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    //[self configureView];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -45,9 +52,7 @@
     self.navigationController.toolbarHidden = NO;
 
     
-    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-                                                                                target:self
-                                                                                action:@selector(validateExercice)];
+    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icon_validate"] style:UIBarButtonItemStyleDone target:self action:                @selector(validateExercice)];
     
     self.navigationItem.rightBarButtonItem = doneButton;
     
